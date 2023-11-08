@@ -1,0 +1,67 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .column {
+    float: left;
+    width: 27%;
+   height: 300px; 
+}
+p {
+    font-size:20px;
+    font-weight:bold;
+}
+.para{
+    font-size: small;
+    font-weight: lighter;
+}
+.ulb {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.ull {
+  float: left;
+}
+.ull a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ulb a:hover:not(.active) {
+  background-color: #111;}
+.active {
+  background-color: rgb(151, 226, 151);
+}
+body{
+  background-color: rgb(151, 226, 151);
+}
